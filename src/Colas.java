@@ -128,7 +128,7 @@ public class Colas extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-    private Queue<String> cola = new LinkedList<>();
+    public Queue<String> cola = new LinkedList<>();
     private void btnAgregarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAgregarActionPerformed
         String elemento = txtElementoC.getText();
     if (!elemento.isEmpty()) {
